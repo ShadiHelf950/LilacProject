@@ -10,3 +10,23 @@
 #### IMPORTANT : In order to view the complete server code go to the src folder, then to the ocsf folder and click on the file LilacServer.java which contains all the server code.
 
 #### Sample Pictures For Demonstration :
+
+#### Home screen :
+
+![](https://github.com/ShadiHelf950/LilacProject/blob/master/Images/sample_1.png) 
+
+#### Managers and employees login screen :
+
+![](https://github.com/ShadiHelf950/LilacProject/blob/master/Images/sample_4.png) '
+
+#### Customers login screen :
+
+![](https://github.com/ShadiHelf950/LilacProject/blob/master/Images/sample_2.png) 
+
+#### Customers registration screen :
+
+![](https://github.com/ShadiHelf950/LilacProject/blob/master/Images/sample_3.png) 
+
+#### Customers failed registration attempt example because of invalid name :
+
+![](https://github.com/ShadiHelf950/LilacProject/blob/master/Images/sample_5.png) 
