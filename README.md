@@ -7,6 +7,6 @@
 3.   Managers and employees can also manage the items in the  store.
 4.   The store connects to a remote SQL Database on phpmyAdmin in order to execute orders from the server.
 
-#### In order to view the complete server code go to the src folder, then to the ocsf folder and click on the file LilacServer.java which contains all the server code.
+#### IMPORTANT : In order to view the complete server code go to the src folder, then to the ocsf folder and click on the file LilacServer.java which contains all the server code.
 
 #### Sample Pictures For Demonstration :
