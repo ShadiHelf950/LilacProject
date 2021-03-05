@@ -30,3 +30,5 @@
 #### Customers failed registration attempt example because of invalid name :
 
 ![](https://github.com/ShadiHelf950/LilacProject/blob/master/Images/sample_5.png) 
+
+#### NOTE : I will continue to develop and progress the project with adding pictures for demonstration. Until then feel free to use it as you like. 
