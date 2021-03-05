@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="613.0" prefWidth="754.0" styleClass="root" stylesheets="@../background/MyStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManagerSectionController">
+   <children>
+      <Label fx:id="titleTxt" layoutX="278.0" layoutY="35.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="viewEarningsBtn" layoutX="277.0" layoutY="97.0" mnemonicParsing="false" onAction="#viewEarningsAction" prefHeight="43.0" prefWidth="201.0" styleClass="btn" stylesheets="@BtnStyle.css" text="View Earnings Report" textFill="#680f0f" />
+      <Button fx:id="viewOrdersBtn" layoutX="277.0" layoutY="160.0" mnemonicParsing="false" onAction="#viewOrdersAction" prefHeight="43.0" prefWidth="201.0" styleClass="btn" stylesheets="@BtnStyle.css" text="View Orders Report" textFill="#680f0f" />
+      <Button fx:id="viewComplaintsBtn" layoutX="277.0" layoutY="227.0" mnemonicParsing="false" onAction="#viewComplaintsAction" prefHeight="43.0" prefWidth="201.0" styleClass="btn" stylesheets="@BtnStyle.css" text="View Complaints Report" textFill="#680f0f" />
+      <Button fx:id="changePrivilegesBtn" layoutX="277.0" layoutY="293.0" mnemonicParsing="false" onAction="#changePrivilegesAction" prefHeight="43.0" prefWidth="201.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Change Employee Privileges" textFill="#680f0f" />
+      <Button fx:id="logoutBtn" layoutX="277.0" layoutY="421.0" mnemonicParsing="false" onAction="#logoutAction" prefHeight="43.0" prefWidth="201.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Logout" textFill="#680f0f" />
+      <Button fx:id="freezeCustomerBtn" layoutX="277.0" layoutY="359.0" mnemonicParsing="false" onAction="#freezeCustomerAction" prefHeight="43.0" prefWidth="201.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Freeze Customer Account" textFill="#680f0f" />
+   </children>
+</AnchorPane>

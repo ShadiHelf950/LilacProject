@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="613.0" prefWidth="754.0" styleClass="root" stylesheets="@../background/MyStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LilacController">
+   <children>
+      <Label layoutX="69.0" layoutY="105.0" text="Welcome To Lilac" textFill="#491452">
+         <font>
+            <Font name="AR DELANEY" size="72.0" />
+         </font>
+      </Label>
+      <Label layoutX="114.0" layoutY="202.0" text="Choose Your Registration Type" textFill="#441452">
+         <font>
+            <Font name="AR DELANEY" size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="StaffBtn" layoutX="281.0" layoutY="328.0" mnemonicParsing="false" onAction="#staffSection" prefHeight="51.0" prefWidth="174.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Staff Members" textFill="#680f0f" />
+      <Button fx:id="customersBtn" layoutX="281.0" layoutY="263.0" mnemonicParsing="false" onAction="#customersSection" prefHeight="51.0" prefWidth="174.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Customers" textFill="#680f0f" />
+      <Button fx:id="GuestBtn" layoutX="281.0" layoutY="396.0" mnemonicParsing="false" onAction="#guestSection" prefHeight="51.0" prefWidth="174.0" styleClass="btn" stylesheets="@BtnStyle.css" text="View Catalog as Guest" textFill="#680f0f" />
+      <Label fx:id="pleaseLoginLbl" layoutX="168.0" layoutY="487.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

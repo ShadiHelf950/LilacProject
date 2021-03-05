@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="613.0" prefWidth="754.0" styleClass="root" stylesheets="@../background/MyStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CustomProductSectionController">
+   <children>
+      <Label layoutX="247.0" layoutY="21.0" text="Custom Product" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="85.0" text="Product Type" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="typeTxt" layoutX="194.0" layoutY="88.0" prefHeight="25.0" prefWidth="227.0" />
+      <Button fx:id="backBtn" layoutX="564.0" layoutY="21.0" mnemonicParsing="false" onAction="#backAction" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Back" textFill="#680f0f" />
+      <Label fx:id="checkTxt" layoutX="64.0" layoutY="479.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="addToCartBtn" layoutX="257.0" layoutY="398.0" mnemonicParsing="false" onAction="#addToCartAction" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Add To Cart" textFill="#680f0f" />
+      <Label fx:id="checkTxt1" layoutX="39.0" layoutY="113.0" text="Note: Options are Bridal, Arrangements, Set, Flowerpot" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="153.0" text="Flower Type" textFill="#653030">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="230.0" text="Iris" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="193.0" text="Carnation" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="266.0" text="Narcissu" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="301.0" text="Rose" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="338.0" text="Tulip" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="224.0" layoutY="153.0" text="Price Per Unit" textFill="#653030">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="559.0" layoutY="153.0" text="Units" textFill="#653030">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="CarnationPriceLbl" layoutX="276.0" layoutY="193.0" text="5 $" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="IrisPriceLbl" layoutX="276.0" layoutY="230.0" text="5 $" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="NarcissuPriceLbl" layoutX="276.0" layoutY="267.0" text="4 $" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="RosePriceLbl" layoutX="276.0" layoutY="304.0" text="4 $" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="TulipPriceLbl" layoutX="276.0" layoutY="344.0" text="5 $" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CarnationUnitTxt" layoutX="548.0" layoutY="193.0" prefHeight="25.0" prefWidth="98.0" text="0" />
+      <TextField fx:id="NarcissuUnitTxt" layoutX="548.0" layoutY="269.0" prefHeight="25.0" prefWidth="98.0" text="0" />
+      <TextField fx:id="IrisUnitTxt" layoutX="548.0" layoutY="233.0" prefHeight="25.0" prefWidth="98.0" text="0" />
+      <TextField fx:id="RoseUnitTxt" layoutX="548.0" layoutY="307.0" prefHeight="25.0" prefWidth="98.0" text="0" />
+      <TextField fx:id="TulipUnitTxt" layoutX="548.0" layoutY="347.0" prefHeight="25.0" prefWidth="98.0" text="0" />
+      <Label layoutX="431.0" layoutY="153.0" text="Color" textFill="#653030">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="CarnationColorLbl" layoutX="438.0" layoutY="191.0" text="Pink" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="IrisColorLbl" layoutX="438.0" layoutY="230.0" text="Purple" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="NarcissuColorLbl" layoutX="436.0" layoutY="266.0" text="Yellow" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="RoseColorLbl" layoutX="442.0" layoutY="301.0" text="Red" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="TulipColorLbl" layoutX="438.0" layoutY="344.0" text="Purple" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="senderTxt" layoutX="38.0" layoutY="28.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

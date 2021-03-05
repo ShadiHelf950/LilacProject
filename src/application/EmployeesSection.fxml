@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="613.0" prefWidth="754.0" styleClass="root" stylesheets="@../background/MyStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmployeeSectionController">
+   <children>
+      <Label fx:id="titleTxt" layoutX="315.0" layoutY="28.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="addCatalogBtn" layoutX="310.0" layoutY="108.0" mnemonicParsing="false" onAction="#addCatalogAction" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Add To Catalog" textFill="#680f0f" />
+      <Button fx:id="editCatalogBtn" layoutX="310.0" layoutY="179.0" mnemonicParsing="false" onAction="#editCatalogAction" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Edit From Catalog" textFill="#680f0f" />
+      <Button fx:id="saleBtn" layoutX="310.0" layoutY="254.0" mnemonicParsing="false" onAction="#saleAction" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Initiate Sale" textFill="#680f0f" />
+      <Button fx:id="complaintBtn" layoutX="310.0" layoutY="326.0" mnemonicParsing="false" onAction="#complaintAction" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Respond to Complaints" textFill="#680f0f" />
+      <Button fx:id="logoutBtn" layoutX="310.0" layoutY="394.0" mnemonicParsing="false" onAction="#logoutAction" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Logout" textFill="#680f0f" />
+      <Label fx:id="checkTxt" layoutX="58.0" layoutY="486.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="613.0" prefWidth="754.0" styleClass="root" stylesheets="@../background/MyStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CustomerComplaintController">
+   <children>
+      <Label layoutX="247.0" layoutY="21.0" text="Complaints" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="85.0" text="Sender Name" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="125.0" text="Description" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="senderTxt" layoutX="194.0" layoutY="88.0" prefHeight="25.0" prefWidth="275.0" />
+      <TextField fx:id="descriptionTxt" layoutX="52.0" layoutY="155.0" prefHeight="30.0" prefWidth="649.0" />
+      <Label fx:id="loginLbl" layoutX="14.0" layoutY="380.0" textFill="#821e1e">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="sendBtn" layoutX="264.0" layoutY="203.0" mnemonicParsing="false" onAction="#sendComplaint" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Send Complaint" textFill="#680f0f" />
+      <Button fx:id="backBtn" layoutX="564.0" layoutY="42.0" mnemonicParsing="false" onAction="#backAction" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Back" textFill="#680f0f" />
+      <Label layoutX="47.0" layoutY="277.0" text="Enter the ID of your complaint to read response" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="responseIdTxt" layoutX="535.0" layoutY="280.0" prefHeight="25.0" prefWidth="132.0" />
+      <Label layoutX="295.0" layoutY="319.0" text="Response" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="responseTxt" layoutX="63.0" layoutY="360.0" prefHeight="30.0" prefWidth="635.0" />
+      <Label fx:id="checkTxt" layoutX="52.0" layoutY="495.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="responseBtn" layoutX="264.0" layoutY="403.0" mnemonicParsing="false" onAction="#getResponse" prefHeight="43.0" prefWidth="155.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Get Response" textFill="#680f0f" />
+   </children>
+</AnchorPane>

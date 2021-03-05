@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="613.0" prefWidth="754.0" styleClass="root" stylesheets="@../background/MyStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManagerPriviligesEmployeeController">
+   <children>
+      <Label fx:id="managerLbl" layoutX="269.0" layoutY="14.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="checkTxt" layoutX="45.0" layoutY="512.0" textFill="#821e1e">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="178.0" text="Name:" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="254.0" text="Store:" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="213.0" text="Privileges:" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idTxt" layoutX="410.0" layoutY="140.0" prefHeight="25.0" prefWidth="68.0" />
+      <Button fx:id="backBtn" layoutX="629.0" layoutY="50.0" mnemonicParsing="false" onAction="#backAction" prefHeight="43.0" prefWidth="108.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Back" textFill="#680f0f" />
+      <Button fx:id="privilegesBtn" layoutX="326.0" layoutY="461.0" mnemonicParsing="false" onAction="#privilegesAction" prefHeight="43.0" prefWidth="130.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Change Privileges" textFill="#680f0f" />
+      <Label layoutX="23.0" layoutY="294.0" text="Enter the new privileges you want to assign to the employee:" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="getDetailsBtn" layoutX="499.0" layoutY="131.0" mnemonicParsing="false" onAction="#getDetailsAction" prefHeight="43.0" prefWidth="130.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Get Employee Details" textFill="#680f0f" />
+      <Label layoutX="16.0" layoutY="93.0" text="Employees IDs:" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="employeesIdsLbl" layoutX="152.0" layoutY="93.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="140.0" text="Enter the ID of the employee you want to edit" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLbl" layoutX="87.0" layoutY="178.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="privilegesLbl" layoutX="120.0" layoutY="213.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="storeLbl" layoutX="81.0" layoutY="254.0" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="privilegesTxt" layoutX="30.0" layoutY="336.0" prefHeight="25.0" prefWidth="499.0" />
+      <Label layoutX="30.0" layoutY="374.0" text="Note: The privileges are Catalog for editing and adding to the catalog," textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="399.0" text="and Complaints responding to customers complaints. " textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="427.0" text="The filling format is: privilege1,privilrge2 or privilege1" textFill="#653030">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="getEmployeesBtn" layoutX="17.0" layoutY="43.0" mnemonicParsing="false" onAction="#getEmployeesAction" prefHeight="43.0" prefWidth="117.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Get Employees IDs" textFill="#680f0f" />
+      <Button fx:id="fireEmployeeBtn" layoutX="170.0" layoutY="461.0" mnemonicParsing="false" onAction="#fireEmployeeAction" prefHeight="43.0" prefWidth="130.0" styleClass="btn" stylesheets="@BtnStyle.css" text="Fire Employee" textFill="#680f0f" />
+   </children>
+</AnchorPane>
